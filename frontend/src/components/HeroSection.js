@@ -5,7 +5,12 @@ const HeroSection = () => {
     <section className='hero-section'>
       <div className='hero-section-content'>
         <div className='hero-icon'>
-          <Link to='/'>
+          <Link
+            to={{
+              pathname: 'https://github.com/Touza2el',
+            }}
+            target='_blank'
+          >
             <i className='fab fa-github'></i>
           </Link>
         </div>
@@ -20,7 +25,7 @@ const HeroSection = () => {
           </p>
         </div>
         <div className='hero-btn'>
-          <Link to='/'>CONTACT ME</Link>
+          <Link to='/contact'>CONTACT ME</Link>
         </div>
       </div>
     </section>
